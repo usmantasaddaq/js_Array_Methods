@@ -1,0 +1,464 @@
+//Q) Write a JavaScript function to get a random item from an array.
+
+// const number =[38,236,24,44]
+
+// function randomItems(value) {
+
+//     for(let i = value.length - 1;i > 0; i--){
+//         let j= Math.floor(Math.random() * i)
+//         let x = value[i]
+//         number[i]=number[j]
+//          number[j]=x;
+//          return value[i]
+//     }
+ 
+// }
+// let r=randomItems(number)
+//     console.log(r)
+
+
+// //Q) Write a JavaScript function to sort the following array of objects by title value.
+// //Sample object :
+
+// var library = [
+
+//    { author: 'Bill Gates', title: 'The Road Ahead', libraryID: 1254},
+
+//    { author: 'Steve Jobs', title: 'Walter Isaacson', libraryID: 4264},
+
+//    { author: 'Suzanne Collins', title: 'Mockingjay: The Final Book of The Hunger Games', libraryID: 3245}
+
+//    ];
+//    let func = (arr) => {
+//     return arr.sort((a,b)=>{
+//         if(a.title < b.title) return -1
+//         if(a.title > b.title) return 1
+//         return 0
+//     })
+
+// }
+//  let m =func(library) 
+
+// console.log(m)
+ 
+
+
+//Q) Write a JavaScript program to remove duplicate items from an array (ignore case sensitivity).
+// let arr =[1,2,2,3,4,5,6]
+// let unique =[ new Set(arr)]
+      
+// console.log(unique)
+
+
+//Q) Write a JavaScript function to remove. 'null', '0', '""', 'false', 'undefined' and 'NaN' values from an array.
+
+//Sample array : 
+
+// Expected result : [15, -22, 47]
+// let  arr = [NaN, 0, 15, false, -22, '',undefined, 47, null];
+//     arr.toString()
+//     function removeValue(value) {      
+//     for( let i = 0; i < value.length; i++){ 
+        
+//         if ( value[i] ==) 
+//         { 
+
+//           return value.splice(i)
+//     }
+// }
+//     }
+// let x =removeValue(arr)
+// console.log(x)
+
+// let employees = [
+
+//     {
+
+//         name: 'Ali',
+
+//         salary: 100000,
+
+//         gender: 'male',
+
+//         position: 'full stack developer',
+
+//         department: {
+
+//             name: 'engineering',
+
+//         },
+
+//     },
+
+//     {
+
+//         name: 'umer',
+
+//         salary: 110000,
+
+//         gender: 'male',
+
+//         position: 'full stack developer',
+
+//         department: {
+
+//             name: 'engineering',
+
+//         },
+
+//     },
+
+//     {
+
+//         name: 'Ayesha',
+
+//         salary: 50000,
+
+//         gender: 'Female',
+
+//         position: 'frontend Developer',
+
+//         department: {
+
+//             name: 'engineering',
+
+//         },
+
+//     },
+
+//     {
+
+//         name: 'Umer',
+
+//         salary: 80000,
+
+//         gender: 'male',
+
+//         position: 'backend developer',
+
+//         department: {
+
+//             name: 'engineering',
+
+//         },
+
+//     },
+
+//     {
+
+//         name: 'Fatima',
+
+//         salary: 150000,
+
+//         gender: 'Female',
+
+//         position: 'database Administrator',
+
+//         department: {
+
+//             name: 'engineering',
+
+//         },
+
+//     },
+
+//     {
+
+//         name: 'alison',
+
+//         salary: 110000,
+
+//         gender: 'Female',
+
+//         position: 'database Administrator',
+
+//         department: {
+
+//             name: 'engineering',
+
+//         },
+
+//     },
+
+//     {
+
+//         name: 'jalal',
+
+//         salary: 40000,
+
+//         gender: 'male',
+
+//         position: 'Accounts Exective',
+
+//         department: {
+
+//             name: 'Accounts',
+
+//         },
+
+//     },
+
+//     {
+
+//         name: 'Rida',
+
+//         salary: 70000,
+
+//         gender: 'Female',
+
+//         position: 'Accounts Manager',
+
+//         department: {
+
+//             name: 'Accounts',
+
+//         },
+
+//     },
+
+//     {
+
+//         name: 'Mudassir',
+
+//         salary: 45000,
+
+//         gender: 'male',
+
+//         position: 'Accounts Exective',
+
+//         department: {
+
+//             name: 'Accounts',
+
+//         },
+
+//     },
+
+//     {
+
+//         name: 'Noor',
+
+//         salary: 60000,
+
+//         gender: 'Female',
+
+//         position: 'Accounts Manager',
+
+//         department: {
+
+//             name: 'Accounts',
+
+//         },
+
+//     },
+
+//     {
+
+//         name: 'saba',
+
+//         salary: 60000,
+
+//         gender: 'Female',
+
+//         position: 'office incharge',
+
+//         department: {
+
+//             name: 'admin',
+
+//         },
+
+//     },
+
+//     {
+
+//         name: 'sadia',
+
+//         salary: 55000,
+
+//         gender: 'Female',
+
+//         position: 'office incharge',
+
+//         department: {
+
+//             name: 'hr',
+
+//         },
+
+//     },
+
+//     {
+
+//         name: 'nasir',
+
+//         salary: 60000,
+
+//         gender: 'male',
+
+//         position: 'Hr manager',
+
+//         department: {
+
+//             name: 'admin',
+
+//         },
+
+//     },
+
+//     {
+
+//         name: 'hina',
+
+//         salary: 60000,
+
+//         gender: 'Female',
+
+//         position: 'hr exective',
+
+//         department: {
+
+//             name: 'admin',
+
+//         },
+
+//     },
+
+//     {
+
+//         name: 'saima',
+
+//         salary: 50000,
+
+//         gender: 'Female',
+
+//         position: 'hr exective',
+
+//         department: {
+
+//             name: 'admin',
+
+//         },
+
+//     },
+
+//     {
+
+//         name: 'aqsa',
+
+//         salary: 60000,
+
+//         gender: 'Female',
+
+//         position: 'hr exective',
+
+//         department: {
+
+//             name: 'hr',
+
+//         },
+
+//     },
+
+//     {
+
+//         name: 'hamza',
+
+//         salary: 60000,
+
+//         gender: 'male',
+
+//         position: 'electriction',
+
+//         department: {
+
+//             name: 'admin',
+
+//         },
+
+//     },
+
+// ]; 
+
+
+// let fun = (g,s,d) => {
+//     return employees.find((e)=>{
+
+//     if(e.gender===g && e.salary>s &&  e.department.name===d ){
+
+//           return  true
+//     }
+    
+
+//     })
+
+// }
+
+//  let x =fun('Female',5500,'hr') 
+
+// console.log(x)
+
+
+
+1.
+// let numb =[1,2,4,5,6]
+// function simpleArraySum(ar) {
+//     // Write your code here
+// let sum =0
+// for(let i=0;i<ar.length;i++){
+//  sum = sum + ar[i]
+// }
+// console.log(sum)
+// }
+// simpleArraySum(numb)
+2.
+// let num =[1,2,3,4,10,11]
+// console.log(num.length)
+// function simpleArraySum(ar) {
+//     // Write your code here
+// let sum =0
+// for(let i=0;i<ar.length;i++){
+//         sum = sum + ar[i]
+// }
+// console.log(sum)
+// }
+//     simpleArraySum(num)
+3.
+// const fruits = new Map([
+//     ["apples", 500],
+//     ["bananas", 300],
+//     ["oranges", 200]
+//   ]);
+//   console.log(fruits.get("apples"))
+4.
+// const fruits = new Map()
+// fruits.set("apples", 500)
+// fruits.set("bananas", 300)
+// fruits.set("oranges", 200)
+
+// console.log(fruits.get("apples"))
+5.
+//let myFunction = (a, b) => a * b;
+// console.log(myFunction(5,2))
+6.
+//Q2 Write a function that converts an array of values from miles to kilometres using the map method. In the end, add the kilometres up in a new variable called "totalDistanceInKilometers" and return this variable.
+
+7.
+//Q3 Square and sum the array elements using the arrow function and then find the average of the array.
+// let number = [25, 45, 55, 77, 88, 99];
+ 
+// const s = number.map(numb => numb*numb);
+// console.log(s);
+// let average = s.reduce((a, c) => a + c, 0)/number.length;
+// console.log(average);
+8.
+//Create a new array using the map function whose each element is equal to the original element plus 4.
+// let numbers = [4, -4, 10, 203, 53, 11];
+// console.log(numbers.map(number => number + 4));
+9.
+//Access String Characters
+// let str="hello"
+// console.log(str[1])
+// let val ='value of x is not define';
+// console.log(val.search('x'))
+//+  solve  one program on hackerrank 
