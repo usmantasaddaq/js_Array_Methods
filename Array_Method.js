@@ -92,6 +92,7 @@ console.log(p)
  //join() (join all array elements into strings)
  //same behave like string but in addition you can add sopecify the seperator
  let z=ar.join('*')
+ 
  console.log(z)
 //3.Popping & Pushing 
 //popping items out of an array,
