@@ -262,4 +262,18 @@
 // console.log(q)
 
 
+let n=5;
+
+function staircase(n){
+ for(let i=0;i<n;i++){
+
+  let  ans ='' 
+for(let j=0;j<n;j++){
+j < (n-1-i)? ans +='': ans+='#'
+}
+console.log(ans)
+}
+ }
+
+
 
